@@ -1,5 +1,5 @@
 # Projects
-=================================================================================================================================
+
 I have built two cybersecurity-focused projects aimed at strengthening digital privacy and enabling secure communication in today’s increasingly connected world. These projects reflect my interest in practical security solutions and demonstrate my ability to design and implement systems that protect users from common threats.
 
 The first project is a Personal Firewall, developed to give users full control over their network traffic. It monitors incoming and outgoing packets and filters them based on customizable rules such as IP address, port number, and protocol type. With features like real-time traffic analysis, logging, and alert notifications, this firewall helps users detect and block unauthorized access attempts, making it a powerful tool for personal system defense.
