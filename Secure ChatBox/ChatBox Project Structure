@@ -1,0 +1,15 @@
+Secure chat-application/
+│
+├── 📄 Core Application Files
+│ ├── server.py                       # Flask-SocketIO server (handles connections)
+│ ├── client.py                       # CLI chat client (user interface)
+│ ├── crypto_manager.py               # Encryption/decryption logic
+│ ├── db_manager.py                   # Local encrypted database handler
+│ └── admin_tool.py                   # Admin access tool for logs
+│
+├── 📄 Testing & Demo
+│ ├── test_crypto.py                  # Comprehensive test suite
+│ └── demo.py                         # Interactive encryption demo
+│
+├── 📄 Documentation
+│ └── Project_Report.pdf
