@@ -1,0 +1,42 @@
+{
+  "default_policy": "allow",
+  "rules": [
+    {
+      "name": "Block common attack ports",
+      "action": "block",
+      "dst_ports": [23, 135, 139, 445, 3389],
+      "protocol": "tcp",
+      "enabled": true
+    },
+    {
+      "name": "Allow SSH",
+      "action": "allow",
+      "dst_ports": [22],
+      "protocol": "tcp",
+      "enabled": true
+    },
+    {
+      "name": "Allow HTTP/HTTPS",
+      "action": "allow",
+      "dst_ports": [80, 443],
+      "protocol": "tcp",
+      "enabled": true
+    },
+    {
+      "name": "Allow DNS",
+      "action": "allow",
+      "dst_ports": [53],
+      "protocol": "udp",
+      "enabled": true
+    },
+    {
+      "name": "Rate limit - SYN flood protection",
+      "action": "rate_limit",
+      "max_connections": 100,
+      "time_window": 10,
+      "enabled": true
+    }
+  ],
+  "blacklist_ips": [],
+  "whitelist_ips": ["127.0.0.1", "::1"]
+}
