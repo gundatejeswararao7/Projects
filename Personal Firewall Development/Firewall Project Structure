@@ -1,0 +1,12 @@
+Project Structure:
+
+personal-firewall/
+├── firewall.py                                 # Main application
+├── firewall_cli.py                             # CLI management tool
+├── firewall_rules.json                         # Configuration                          
+├── setup.sh                                    # Installation script
+├── test_firewall.py                            # Test suite                                  
+├── DEPLOYMENT_GUIDE.md                         # Deployment guide                        
+├── project_report.pdf                          # PDF-ready report
+├── firewall.db                                 # Database (created at runtime)
+└── firewall.log                                # Application logs
