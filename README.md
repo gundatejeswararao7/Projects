@@ -1,1 +1,7 @@
 # Projects
+=================================================================================================================================
+I have built two cybersecurity-focused projects aimed at strengthening digital privacy and enabling secure communication in today’s increasingly connected world. These projects reflect my interest in practical security solutions and demonstrate my ability to design and implement systems that protect users from common threats.
+
+The first project is a Personal Firewall, developed to give users full control over their network traffic. It monitors incoming and outgoing packets and filters them based on customizable rules such as IP address, port number, and protocol type. With features like real-time traffic analysis, logging, and alert notifications, this firewall helps users detect and block unauthorized access attempts, making it a powerful tool for personal system defense.
+
+The second project is a Secure Chatbox with End-to-End Encryption, designed to ensure private communication between users. Messages are encrypted on the sender’s device and decrypted only by the intended recipient, preventing any third party from accessing the content. The chatbox includes secure key exchange, encrypted local storage, and optional features like self-destructing messages. It’s a lightweight yet robust solution for anyone who values confidentiality in their digital conversations.
