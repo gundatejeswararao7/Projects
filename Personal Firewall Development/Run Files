@@ -1,0 +1,40 @@
+### **Step 1: Create all the files**
+
+Save these files in a folder (e.g., `personal-firewall/`):
+
+1. **firewall.py** - Main application (from artifact 1)
+2. **firewall_cli.py** - CLI tool (from artifact 2)
+3. **requirements.txt** - Dependencies (from artifact 3)
+4. **setup.sh** - Setup script (from artifact above)
+5. **test_firewall.py** - Test script (from artifact 6)
+
+### **Step 2: Install dependencies**
+bash
+cd personal-firewall
+
+# Install Python packages
+pip3 install scapy requests tabulate
+
+### **Step 3: Make scripts executable**
+
+bash
+chmod +x firewall.py
+chmod +x firewall_cli.py
+chmod +x setup.sh
+chmod +x test_firewall.py
+
+
+### **Step 4: Run the test file**
+bash
+python3 test_firewall.py
+
+
+### **Step 5: Run the main firewall**
+bash
+sudo python3 firewall.py
+
+### **Step 6: Run the CLI tool** (in another terminal)
+bash
+python3 firewall_cli.py list
+python3 firewall_cli.py stats
+python3 firewall_cli.py logs
